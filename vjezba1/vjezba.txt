@@ -1,0 +1,19 @@
+1. Instalirati Python u slučaju da već nije na računalu
+2. Pomoću programskog koda s predavanja, napraviti TCP echo server.
+    - Zadaća echo servera je da podatke koje primi od klijenta vrati natrag klijentu preko istog socketa (veze)
+    - Echo server sluša na adresi localhosta, na portu 63444
+    - Server koristi TCP kao prijenostni protokol
+3. Pomoću programskog koda s predvanja napraviti echo klijent.
+    - Zadaća echo klijenta je da se spoji na echo server, pošalje mu podatke i prezentira odgovor servera
+    - Klijent koristi TCP kao prijenosni protokol
+4. Modificirati echo server tako da se izvodi u petlji kako ga ne bi morali ponovno pokretati nakon svakog spajanja.
+    Dodati pitanje da li želimo prekid ili nastavak izvođenja. odgovor = input("Nastaviti izvođenje?[D/N]:)
+5. Pomoću programskog koda s predavanja, napraviti UDP echo server.
+    - Zadaća echo servera je da podatke koje primi od klijenta ispiše na konzoli te vrati natrag klijentu preko istog socketa (veze)
+    - Echo server sluša na adresi localhosta, na portu 64444
+    Server koristi UDP kao prijenosni protokol
+6. Pomoću programskog koda s predavanja , napraviti echo klijent.
+    - Zadaća echo klijenta je da se spoji na echo server, pošalje mu podatke i prezentira odgovor servera
+    Klijent koristi UDP kao prijenosni protokol
+7. Prilagodite UDP klijent i server za komunkaciju u lokalnoj mreži učionice - pokušajte komunicirati između različitih računala
+8. Složite aplikaciju za chat u lokalnoj mreži. Preuzeti kosture raplikacije s Merlina (Vj-Z8.py)
