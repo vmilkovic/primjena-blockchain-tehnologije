@@ -1,0 +1,16 @@
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\bin\Debug\net6.0\TCP Client Server.exe
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\bin\Debug\net6.0\TCP Client Server.deps.json
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\bin\Debug\net6.0\TCP Client Server.runtimeconfig.json
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\bin\Debug\net6.0\TCP Client Server.dll
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\bin\Debug\net6.0\ref\TCP Client Server.dll
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\bin\Debug\net6.0\TCP Client Server.pdb
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\obj\Debug\net6.0\TCP Client Server.GlobalUsings.g.cs
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\obj\Debug\net6.0\TCP Client Server.csproj.AssemblyReference.cache
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\obj\Debug\net6.0\TCP Client Server.GeneratedMSBuildEditorConfig.editorconfig
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\obj\Debug\net6.0\TCP Client Server.AssemblyInfoInputs.cache
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\obj\Debug\net6.0\TCP Client Server.AssemblyInfo.cs
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\obj\Debug\net6.0\TCP Client Server.csproj.CoreCompileInputs.cache
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\obj\Debug\net6.0\TCP Client Server.dll
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\obj\Debug\net6.0\ref\TCP Client Server.dll
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\obj\Debug\net6.0\TCP Client Server.pdb
+F:\Faks\godina3\primjena blockchain tehnologije\primjena-blockchain-tehnologije\vjezba2\TCP Client Server\TCP Client Server\obj\Debug\net6.0\TCP Client Server.genruntimeconfig.cache

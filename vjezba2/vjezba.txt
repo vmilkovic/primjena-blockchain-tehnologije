@@ -1,0 +1,15 @@
+1. Instalirati Visual Studio Community ako nije instaliran na računalu
+2. Pomoću programskog koda s predavanja, u Python-u napraviti echo server.
+    - Zadaća echo servera je da podatke koje primi od klijenta vrati natrag klijntu preko istog socketa (veze)
+    - Echo server sluša na adresi localhosta, na portu 63444
+    - Server koristi TCP kao prijenosni protokol
+3. Istražite na internetu mogućnost izrade echo klijenta u programskom jeziku C# koristeći Visual Studio
+    - Izradite echo klijent u C#
+    - Ostvarite komunikaciju s python echo serverom
+    - Koristite TCP sockete
+4. Napravite posrednički (proxy) server između C# klijenta i Python servera. 
+    - Posrednički server će s C# klijentom komunicirati putem TCP-a, dok će s Python serverom komunicirati putem UDP-a.
+    - Posrednički server će proslijediti poruku od C# kljenta do Python server, te će zatim proslijediti odgovor od Python servera do klijent.
+    - Posrednički server svakoj poruci dodaje na kraj oznaku #PS#
+    - Posrednički server izradite u Python-u.
+    C# klijent -> 1. TCP - poruka -> Python posrednik -> 2. UDP - poruka #PS# -> Python server -> 3. UDP - poruka #PS# -> Python posrednik -> 4. TCP - poruka #PS##PS# -> C# klijent
