@@ -1,0 +1,19 @@
+Neblokirajuća i blokirajuća obrada dolaznih veza – serijsko posluživanje dolaznih veza
+
+Neblokirajuća i blokirajuća obrada dolaznih veza – serijsko posluživanje dolaznih veza
+
+1. Preuzeti UDP server (3UDPs.py) i UDP klijenta (3UDPc.py) s Merlina. Provjeriti da li je komunikacija između njih uspješna.
+2. Preraditi UDP server tako da radi u neblokirajućem modu i pokušajte komunikaciju s UDP klijentom iz prethodnog zadatka. (predlažem da pomoću try i except hvatate exceptione koji se javljaju zbog neblokirajućeg poziva)
+3. Preuzeti TCP server (3TCPs.py) s Merlina. Preradite UDP klijenta tako da radi s TCP-om i ostvarite komunikaciju prema TCP serveru.
+4. Preradite TCP server tako da radi u neblokirajućem modu i ostvarite komunikaciju s TCP klijentom iz prethodnog zadatka.
+
+Blokirajuća obrada dolaznih veza – paralelno posluživanje dolaznih veza
+5. Preuzeti višedretveni TCP server kakav je prikazan na predavanju. Popraviti server tako da prihvati sve dolazne veze TCP klijenta (koristite TCP klijenta iz prethodnog zadatka).
+Server se može popraviti na 2 načina (po izboru):
+    a) dodavanjem sleepova kao u primjeru s predavanja
+    b) glavnu while petlju servera premjestiti tako da ne otvara novi socket svaki puta nego da ide na accept
+
+RPC
+6. Instalirati rpyc python modul - pip install rpyc unutar naredbenog retka
+7. Sukladno kodu s predavanja napraviti jednostavan RPC server koji ima dohvatljivu metodu vlasnik koja pozivatelju metode vraća ime vlasnika servera (u neku varijablu spremite svoje ime). Dodatno ima metodu promet kojom se vraća ukupan broj poziva prema serveru. Svaki poziv metode vlasnik ili promet povećava brojčanik s brojem poziva za 1.
+8. Sukladno kodu s predavanja, složiti klijentsku aplikaciju za pristup RPC serveru.
