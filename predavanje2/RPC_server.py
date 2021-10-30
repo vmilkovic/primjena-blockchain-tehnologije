@@ -12,7 +12,7 @@ class MyService(rpyc.Service):
     def vrati_random(self):
         return random.randint(1, 10)
 
-    def exposed_vrati_izracun(sef, var):
+    def exposed_vrati_izracun(self, var):
         return 55 + var
 
     exposed_kontrolna_vrijednost = 43
