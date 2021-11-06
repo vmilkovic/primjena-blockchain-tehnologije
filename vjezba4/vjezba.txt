@@ -1,0 +1,16 @@
+S Merlina preuzmite datoteke fullnode.py, miner.py i wallet.py
+
+1. Namjestiti miner da pronalazi hasheve koji imaju nule na 3 vodeća mjesta.
+Provjeriti rad sustava.
+2. Namjestiti miner da pronađe 7 valjanih blokova. Provjeriti rad sustava. Za vrijeme rada sustava, potrebno je preko walleta dodati još transakcija u mempool, jer u inicijalnom mempool-u ih nema dovoljno da popuni 7 blokova. (u suprotnom će se javiti exception unutar miner-a)
+3. Izmjerite koliko ukupno vremena treba da miner pronađe 7 blokova
+4. Izmjerite koliko vremena treba za stvaranje svakog pojedinog bloka i koliko hash-eva (prebrojava svaki pokušaj do pronalaska ispravnog hasha za svaki blok) miner izvrti da bi pronašao svaki blok
+5. Promijenite parametre minera tako da traži hasheve s 4 vodeće nule u ponovite mjerenja iz prethodnog zadatka.
+6. Proširite funkcionalnost wallet-a tako da možemo odabrati broj bloka i prikazati podatke samo tog bloka:
+Npr:
+HASH PRETHODNOG BLOKA: 0090da2047ae3648bbc5eee22bede22968f8f02fa9a605bc8da8b2025e2b7642
+HASH ODABRANOG BLOKA: 0e5f6a32cdd5f8eb25ea603ec504ad8e7e88638c9f62b3f153ac3909d6870c7
+TRANSAKCIJE:
+Transakcija 1
+Transakcija 2
+Transakcija 3
